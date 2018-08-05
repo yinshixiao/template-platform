@@ -9,7 +9,7 @@ import javax.jws.WebService;
 
 import template.platform.service.UserService;
 
-@WebService(serviceName = "HelloService", targetNamespace = "http://webservice.platform.lib/")
+@WebService(serviceName = "HelloService", targetNamespace = "http://webservice.platform.template/")
 public class HelloService {
 
 	private UserService userService;
